@@ -1,1 +1,16 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.body {
+  text-align: center;
+}
+
+.row {
+  background-color: #CDA5F3;
+}
+
+[class*="col-"] {
+  background-color: #CDA5F3;
+  border: 2px solid black;
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
