@@ -5,24 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap BeCode exercices</title>
 
+    <!--I used the CDN version in this file, coupled with a CSS file for the colours-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
 
   </head>
   <body>
 
-    <div class = "container">
+    <!--All exercices are located on the same page for personnal purposes-->
+
+    <div class = "container"> <!--I - Blocs positioning-->
         <div class = "row">
-          <div class= "col-lg-12"> 12 colonnes
-              <div class = "row">
-                <div class= "col-lg-offset-1 col-lg-2">Coucou</div>
-                <div class= "col-lg-offset 2 col-lg-3" >ça</div>
-                <div class="col-lg-offset-2 col-lg-2">va?</div>
-              </div>
+        <div class= "col-lg-12"> 12 colonnes
+            <div class = "row">
+              <div class= "offset-md-1 col-md-2">Coucou</div>
+              <div class= "offset-md-2 col-md-3" >ça</div>
+              <div class= "offset-md-2 col-md-2">va?</div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class ="container cont-space"> <!--II - Imbricated elements-->
+        <div class="row">
+            <div class="col-md-3">Nouvel</div>
+            <div class="col-md-7"><b>Exercice</b>
+                <div class="row">
+                    <div class="col-md-3">ces</div>
+                    <div class="col-md-6">blocs sont tous</div>
+                    <div class="col-md-3">dans</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">la même</div>
+                    <div class="col-md-4">div où est</div>
+                    <div class="col-md-4"><p>inscrit<b> "Exercice"</b>.</p></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5">comment</div>
+                    <div class="col-md-2">est</div>
+                    <div class="col-md-5">ce possible?</div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class ="container cont-space"> <!--III - Change elements order-->
+        <div class ="row">
+          <div class ="col-md-12">12 colonnes
+            <div class ="row">
+              <div class ="offset-md-1 col-md-2">Coucou</div>
+              <div class ="offset-md-2 col-md-2 col order-3">ça</div>
+              <div class ="offset-md-2 col-md-2 col order-2 offset-md-1">va?</div>
+            </div>
           </div>
         </div>
     </div>
+    
+    <div class ="container cont-space"></div> <!--IV - Practice makes good-->
+
 
   </body>
 </html>

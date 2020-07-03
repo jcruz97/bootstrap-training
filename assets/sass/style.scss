@@ -3,13 +3,11 @@
 
 }
 
-.body {
-    text-align: center;
+.cont-space{
+    margin-top: 10vh;
+    background-color: white;
 }
 
-.row{
-    @include violet-bg;
-}
 
 [class*="col-"] {
     @include violet-bg;

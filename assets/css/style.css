@@ -1,9 +1,6 @@
-.body {
-  text-align: center;
-}
-
-.row {
-  background-color: #CDA5F3;
+.cont-space {
+  margin-top: 10vh;
+  background-color: white;
 }
 
 [class*="col-"] {
